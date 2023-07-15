@@ -1,0 +1,2389 @@
+<!DOCTYPE html>
+
+
+<html>
+    
+    
+    <head>
+    
+        <link rel="stylesheet" href="Pythonbasics11.css">
+        
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kanit:wght@200&display=swap" rel="stylesheet">
+    
+    
+        
+    
+    
+    
+    </head>
+    
+    
+    <body>
+        
+        <nav>
+        
+        <ul class="topnav" id="ul1">
+            
+            
+             <li><a href="#home">Homepage</a></li>
+             <li><a href="firstpage.html#news">News</a></li>
+             <li><a href="#home">Contact</a></li>
+             <li><a href="About.html">About</a></li>
+             <li class="topnav-right"><a href="#home">Signup</a></li>
+             <li class="topnav-right"><a href="login.html">Signin</a></li>
+            
+            
+            <li class="dropdownIcon" ><a href="javascript:void(0);"  onclick="dropdownMenu()">&#9776;</a></li>
+        
+        
+        </ul>
+        
+        
+    
+    
+    </nav>
+        
+        
+    
+   
+    <script>
+    
+    function dropdownMenu(){
+        
+        
+        var x=document.getElementById("ul1");
+        
+        
+        if(x.className==="topnav"){
+            
+            
+        
+            
+            x.className +=" responsive";
+            
+        }
+        else {
+            
+            x.className = "topnav";
+        }
+        
+        
+        
+        
+    }
+    
+    
+
+    
+    
+    </script>
+    
+    
+    
+        
+        
+         
+        
+        <a name="OutsideContainer"></a>
+        <div class="outsidecontainer">
+        
+        
+        
+        </div>
+        
+        
+        <div class="maincontainer">
+            
+           
+            
+                   
+         <img  class="pythonimage" src="Python-Logo.png">
+                
+              
+        
+          <a href="#fifth" > <div class="one">
+            <section>
+                      <h1 class="first1"  >&nbspData &nbspStructures</h1>
+                
+                </section>
+            </div>
+            
+            </a>
+           
+           <a href="#fourth">  
+            <div class="two">
+                <section>
+                  <h1 class="second2">&nbsp &nbsp &nbsp&nbspControl  Flow  <br>&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp  Tools</h1>
+                
+                </section>
+            
+           
+               </div> </a>
+            
+            
+        
+           <a href="#third"><div class="three">
+            
+               <section>
+                  <h1 class="third3"  C> Python interpreter</h1>
+                
+                </section>
+                
+                
+                
+                
+               </div> </a>
+            
+            
+        
+          <a href="#secondheading"> <div class="four">
+                   <section>
+                   <h1 class="fourth4" style="margin-">Python Introduction </h1>
+                
+                </section>
+                
+            
+            
+            </div></a> 
+            
+            
+        
+         <a href="#first">   <div class="five">
+                  
+            <section>
+                <h1 class=fifth5> &nbsp &nbsp  Whetting  your <br>&nbsp    &nbsp &nbsp &nbsp &nbspappetite</h1>
+                
+                </section>
+                
+            
+            
+                 
+                
+            </div></a>
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+    
+    
+    
+        
+        <a name=first> </a>
+        
+        <div class="indexheadings">
+        
+        
+        
+        
+        <section class="firstheading" >
+        <h2>Whetting Your Appetite
+        </h2>  
+       <a href="#OutsideContainer">
+            
+            <img src="navigation.png" class="uptoggle" style="display:inline;">
+            
+            </a> 
+        
+        </section> </div>
+        
+        <section class="paratopic">
+        <p>
+            If you do much work on computers, eventually you find that there’s some task you’d like to automate. For example, you may wish to perform a search-and-replace over a large number of text files, or rename and rearrange a bunch of photo files in a complicated way. Perhaps you’d like to write a small custom database, or a specialized GUI application, or a simple game.<br><br>
+
+If you’re a professional software developer, you may have to work with several C/C++/Java libraries but find the usual write/compile/test/re-compile cycle is too slow. Perhaps you’re writing a test suite for such a library and find writing the testing code a tedious task. Or maybe you’ve written a program that could use an extension language, and you don’t want to design and implement a whole new language for your application.
+            <br><br>
+            
+            Python is simple to use, but it is a real programming language, offering much more structure and support for large programs than shell scripts or batch files can offer. On the other hand, Python also offers much more error checking than C, and, being a very-high-level language, it has high-level data types built in, such as flexible arrays and dictionaries. Because of its more general data types Python is applicable to a much larger problem domain than Awk or even Perl, yet many things are at least as easy in Python as in those languages.
+            
+            <br><br>
+            
+            Python is extensible: if you know how to program in C it is easy to add a new built-in function or module to the interpreter, either to perform critical operations at maximum speed, or to link Python programs to libraries that may only be available in binary form (such as a vendor-specific graphics library). Once you are really hooked, you can link the Python interpreter into an application written in C and use it as an extension or command language for that application.<br><br>
+
+By the way, the language is named after the BBC show “Monty Python’s Flying Circus” and has nothing to do with reptiles. Making references to Monty Python skits in documentation is not only allowed, it is encouraged!<br><br>
+
+Now that you are all excited about Python, you’ll want to examine it in some more detail. Since the best way to learn a language is to use it, the tutorial invites you to play with the Python interpreter as you read.<br><br>
+
+In the next chapter, the mechanics of using the interpreter are explained. This is rather mundane information, but essential for trying out the examples shown later.<br><br>
+
+The rest of the tutorial introduces various features of the Python language and system through examples, beginning with simple expressions, statements and data types, through functions and modules, and finally touching upon advanced concepts like exceptions and user-defined classes.
+            
+        </p>
+        </section>
+        
+        
+        <div class="indexheadings">
+
+        <a name="secondheading"></a>
+         <section class="secondheading" >
+        <h2>Python Introduction
+        </h2>  
+       <a href="#OutsideContainer">
+            
+            <img src="navigation.png" class="uptoggle" style="display:inline;">
+            
+            
+            </a> 
+        
+            </section>
+            
+            
+            
+        
+        
+        
+        
+        
+        </div>
+        
+        <section class="paratopic">
+            
+            
+            <p>Python is a powerful general-purpose programming language. It is used in web development, data science, creating software prototypes, and so on. Fortunately for beginners, Python has simple easy-to-use syntax. This makes Python an excellent language to learn to program for beginners.
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </p>
+        
+        
+        
+         </section>
+        
+        
+        
+        
+        
+     
+        
+        
+        
+<h3>
+        Using Python as a Calculator
+        </h3>
+        
+        
+        <section class="paratopic">
+            
+            <p>
+                  
+            
+            
+            
+            
+            Let’s try some simple Python commands. Start the interpreter and wait for the primary prompt, >>>. (It shouldn’t take long.)
+            
+            
+            
+    </p>
+            
+             
+            </section>
+            
+        <h4>
+                    Numbers
+            </h4>
+            
+            <section class="paratopic">
+            <p>
+                The interpreter acts as a simple calculator: you can type an expression at it and it will write the value. Expression syntax is straightforward: the operators +, -, * and / work just like in most other languages (for example, Pascal or C); parentheses (()) can be used for grouping. For example:</p></section>
+            
+        <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> 2 + 2<br>
+4 <br>
+<span class="rightsymbol">>>></span> 50 - 5*6 <br>
+20 <br>
+<span class="rightsymbol">>>></span> (50 - 5*6) / 4 <br>
+5.0 <br>
+<span class="rightsymbol">>>></span> 8 / 5  # division always returns a floating point number <br>
+1.6
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+    
+        
+       
+            
+            <section class="paratopic">
+            <p>
+                The integer numbers (e.g. 2, 4, 20) have type int, the ones with a fractional part (e.g. 5.0, 1.6) have type float. We will see more about numeric types later in the tutorial.
+
+Division (/) always returns a float. To do floor division and get an integer result (discarding any fractional result) you can use the // operator; to calculate the remainder you can use %:</p>
+                </section>
+    
+    
+     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> 17 / 3  # classic division returns a float<br>
+5.666666666666667 <br>
+<span class="rightsymbol">>>></span> 17 // 3  # floor division discards the fractional part
+<br>
+ 5<br>
+<span class="rightsymbol">>>></span> 17 % 3  # the % operator returns the remainder of the division<br>
+ 2<br>
+<span class="rightsymbol">>>></span> 5 * 3 + 2  # floored quotient * divisor + remainder <br>
+17
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+    
+    
+    
+    <section class="paratopic">
+            <p>
+                With Python, it is possible to use the ** operator to calculate powers </p>
+                </section>
+    
+     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>5 ** 2  # 5 squared<br>
+25<br>
+<span class="rightsymbol">>>></span> 2 ** 7  # 2 to the power of 7
+<br>
+ 128<br>
+
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+     
+    <section class="paratopic">
+            <p>
+               The equal sign (=) is used to assign a value to a variable. Afterwards, no result is displayed before the next interactive prompt: </p>
+                </section>
+        <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>width = 20<br>
+
+<span class="rightsymbol">>>></span> height = 5 * 9
+<br>
+                <span class="rightsymbol">>>></span> width * height<br>900
+<br>
+ 
+
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+        
+        <section class="paratopic">
+            <p>
+               If a variable is not “defined” (assigned a value), trying to use it will give you an error: </p>
+                </section>
+         <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>n  # try to access an undefined variable<br>
+
+<span style="color:blue">Traceback (most recent call last):</span> 
+<br>
+                <span> &nbsp &nbsp File "{stdin}", line 1, in {module}<br><span style="color:red" >NameError</span>&nbsp name 'n' is not defined</span>
+                
+                
+<br>
+ </p>
+            
+            </div>
+        
+        
+        
+        
+        
+        
+        
+         <section class="paratopic">
+            <p>
+              There is full support for floating point; operators with mixed type operands convert the integer operand to floating point: </p>
+                </section>
+         <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>4 * 3.75 - 1<br>14.0
+
+
+                
+                
+<br>
+ </p>
+            
+            </div>
+    
+    
+
+    
+    
+    <section class="paratopic">
+            <p>
+                In interactive mode, the last printed expression is assigned to the variable _. This means that when you are using Python as a desk calculator, it is somewhat easier to continue calculations, for example: </p>
+                </section>
+    
+     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>tax = 12.5 / 100<br>
+
+<span class="rightsymbol">>>></span> price = 100.50
+<br>
+                <span class="rightsymbol">>>></span> price * tax
+<br>12.5625 
+                <br>
+                 <span class="rightsymbol">>>></span>price + _<br>113.0625
+                <br>
+                    
+                <span class="rightsymbol">>>></span>round(_, 2)<br>113.06
+                <br>
+ 
+
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+        
+        <section class="paratopic">
+            <p>
+               This variable should be treated as read-only by the user. Don’t explicitly assign a value to it — you would create an independent local variable with the same name masking the built-in variable with its magic behavior.<br>
+
+In addition to int and float, Python supports other types of numbers, such as Decimal and Fraction. Python also has built-in support for complex numbers, and uses the j or J suffix to indicate the imaginary part (e.g. 3+5j). </p>
+                </section>
+    
+    
+    <h4>
+                    Strings
+            </h4>
+        
+        <section class="paratopic">
+            <p>
+               Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes ('...') or double quotes ("...") with the same result 2. \ can be used to escape quotes: </p>
+                </section>
+    
+    
+    
+    
+    
+    <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>'spam eggs'  # single quotes<br>'spam eggs'<br>
+
+<span class="rightsymbol">>>></span> 'doesn\'t'  # use \' to escape the single quote...
+<br>"doesn't"<br>
+                <span class="rightsymbol">>>></span> "doesn't"  # ...or use double quotes instead
+<br>"doesn't"
+                <br>
+                 <span class="rightsymbol">>>></span> '"Yes," they said.'<br>'"Yes," they said.'
+                <br>
+                    
+                <span class="rightsymbol">>>></span>"\"Yes,\" they said."<br>'"Yes," they said.'
+                <br>
+ 
+                 <span class="rightsymbol">>>></span>'"Isn\'t," they said.'<br>'"Isn\'t," they said.'
+                <br>
+ 
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+    
+        
+         <section class="paratopic">
+            <p>
+               In the interactive interpreter, the output string is enclosed in quotes and special characters are escaped with backslashes. While this might sometimes look different from the input (the enclosing quotes could change), the two strings are equivalent. The string is enclosed in double quotes if the string contains a single quote and no double quotes, otherwise it is enclosed in single quotes. The print() function produces a more readable output, by omitting the enclosing quotes and by printing escaped and special characters: </p>
+                </section>
+    
+     <div class="content">
+            
+            
+           
+            <p>
+                <span class="rightsymbol">>>></span><span style="color:blue">'"Isn\'t," they said.'</span><br>'"Isn\'t," they said.'<br>
+
+                <span class="rightsymbol">>>></span>print(<span style="color:blue">'"Isn\'t," they said.'</span>)
+<br>"Isn't," they said.<br>
+                <span class="rightsymbol">>>></span> s = <span style="color:blue">'First line.\nSecond line.'  # \n means newline  </span>
+<br>
+                <span class="rightsymbol">>>></span> s <span style="color:blue"> # without print(), \n is included in the output  </span>
+<br>'First line.\nSecond line.' <br>
+                    
+                <span class="rightsymbol">>>></span>print(s) <span style="color:blue"> # with print(), \n produces a new line </span><br>First line.<br>
+Second line.
+                <br>
+ 
+               
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+        
+        
+        
+        
+        
+        <section class="paratopic">
+            <p>
+                Slice indices have useful defaults; an omitted first index defaults to zero, an omitted second index defaults to the size of the string being sliced.
+                </p>
+                </section>
+    
+     <div class="content">
+         <p>
+             <span class="rightsymbol">>>></span>word[:2] <span style="color:blue">  # character from the beginning to position 2 (excluded)</span><br>
+
+             <span class="rightsymbol">>>></span>word[4:] <span style="color:blue"> # characters from position 4 (included) to the end
+'on'</span><br>
+
+             <span class="rightsymbol">>>></span>word[-2:] <span style="color:blue">  # characters from the second-last (included) to the end
+'on'
+</span><br>
+ </p>
+            
+            </div>
+        
+        
+         <section class="paratopic">
+            <p>
+                Note how the start is always included, and the end always excluded. This makes sure that s[:i] + s[i:] is always equal to s:
+                </p>
+                </section>
+    
+     <div class="content">
+         <p>
+                <span class="rightsymbol">>>></span>word[:2] + word[2:]<br>'Python'<br>
+
+               <span class="rightsymbol">>>></span>word[:4] + word[4:]<br>'Python'
+<br>
+ </p>
+            
+            </div>
+        
+         <section class="paratopic">
+            <p>
+                One way to remember how slices work is to think of the indices as pointing between characters, with the left edge of the first character numbered 0. Then the right edge of the last character of a string of n characters has index n, for example:
+                </p>
+                </section>
+    
+     <div class="content">
+         <p>
+                +---+---+---+---+---+---+<br>
+
+               |&nbsp P&nbsp |&nbsp  y&nbsp  |&nbsp  t&nbsp |&nbsp  h&nbsp |&nbsp o&nbsp | n |<br>
+             +---+---+---+---+---+---+<br>
+          |&nbsp 0&nbsp |&nbsp  1&nbsp  |&nbsp  3&nbsp |&nbsp  4&nbsp |&nbsp 5&nbsp | 6 |<br>
+              | -6&nbsp    |&nbsp-5  |&nbsp-4&nbsp |&nbsp  -3&nbsp|&nbsp-2&nbsp| -1 |<br>
+ </p>
+            
+            </div>
+        
+         <section class="paratopic">
+            <p>The first row of numbers gives the position of the indices 0…6 in the string; the second row gives the corresponding negative indices. The slice from i to j consists of all characters between the edges labeled i and j, respectively. <br>
+
+For non-negative indices, the length of a slice is the difference of the indices, if both are within bounds. For example, the length of word[1:3] is 2. <br>
+
+Attempting to use an index that is too large will result in an error: <br>
+                </p>
+                </section>
+    
+     <div class="content">
+         <p>
+                <span class="rightsymbol">>>></span>word[42]<span style="color:green"># the word only has 6 characters</span><br><span style="color:blue">Traceback (most recent call last):<br>
+             &nbsp File "{stdin}", line 1, in {module} <br>
+             <span style="color:red">IndexError</span>: string index out of range
+
+                
+ </p>
+            
+            </div>
+        
+         <section class="paratopic">
+            <p>
+                However, out of range slice indexes are handled gracefully when used for slicing:
+                </p>
+                </section>
+    
+     <div class="content">
+         <p>
+             <span class="rightsymbol">>>></span>word[4:42]<br>'on'<br>
+
+                <span class="rightsymbol">>>></span>word[42:]
+<br>''<br>
+ 
+                <br>
+ </p>
+            
+            </div>
+        
+         <section class="paratopic">
+            <p>
+                Python strings cannot be changed — they are immutable. Therefore, assigning to an indexed position in the string results in an error:<br>
+                If you need a different string, you should create a new one:
+                
+                
+                </p>
+                </section>
+    
+     <div class="content">
+         <p>
+                <span class="rightsymbol">>>></span><span style="color:blue">'J' </span>+ word[1:] <br>'Jython'<br>
+
+                <span class="rightsymbol">>>></span>word[:2] + (<span style="color:blue">'py'</span>)
+<br>'Pypy'.<br>
+ 
+                <br>
+ </p>
+            
+            </div>
+        
+        <section class="paratopic">
+            <p>
+                The built-in function <span style="color:blue">len()</span> returns the length of a string:
+                
+                </p>
+                </section>
+    
+     <div class="content">
+         <p>
+                <span class="rightsymbol">>>></span>s = <span style="color:blue">'supercalifragilisticexpialidocious'</span><br>
+
+                <span class="rightsymbol">>>></span> len(s)
+<br>34<br>
+ 
+                <br>
+ </p>
+            
+            </div>
+        
+     
+        
+        
+         <h4>
+                    Lists
+            </h4>
+        
+         <section class="paratopic">
+            <p>
+                Python knows a number of compound data types, used to group together other values. The most versatile is the list, which can be written as a list of comma-separated values (items) between square brackets. Lists might contain items of different types, but usually the items all have the same type. </p>
+                </section>
+    
+     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>squares = [1, 4, 9, 16, 25]<br>
+
+<span class="rightsymbol">>>></span> squares
+<br>
+               [1, 4, 9, 16, 25]
+                <br>
+ 
+
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+        
+        
+        <section class="paratopic">
+            <p>
+                Like strings (and all other built-in sequence types), lists can be indexed and sliced: </p>
+                </section>
+    
+     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>squares[0] <span style="color:blue"># indexing returns the item</span><br>1
+
+<span class="rightsymbol">>>></span> squares[-1]
+<br>25
+                <span class="rightsymbol">>>></span> squares[-3:] <span style="color:blue"># slicing returns a new list</span>
+<br>[9, 16, 25]
+                <br>
+                 
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+       
+        
+        3
+        <section class="paratopic">
+            <p>
+                All slice operations return a new list containing the requested elements. This means that the following slice returns a shallow copy of the list: </p>
+                </section>
+    
+     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>squares[:]<br> [1, 4, 9, 16, 25] <br>
+
+
+            
+            </p>
+            
+            
+            
+            
+            </div>
+        
+        
+        <section class="paratopic">
+            <p>
+                Lists also support operations like concatenation:</p>
+                </section>
+    
+     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>squares + [36, 49, 64, 81, 100]<br> [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+
+
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+        5
+        
+        <section class="paratopic">
+            <p>
+                Unlike strings, which are immutable, lists are a mutable type, i.e. it is possible to change their content:</p>
+                </section>
+    
+     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>cubes = [1, 8, 27, 65, 125] <span style="color:blue"> # something's wrong here</span><br>
+
+            <span class="rightsymbol">>>></span>4 ** 3  <span style="color:blue"># the cube of 4 is 64, not 65!</span><br>
+                64
+                <br>
+                <span class="rightsymbol">>>></span>cubes[3] = 64   <span style="color:blue"># replace the wrong value</span>
+                
+                <br>
+                
+                <span class="rightsymbol">>>></span>cubes
+<br> [1, 8, 27, 64, 125] <br>
+
+
+
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+      6
+        
+        <section class="paratopic">
+            <p>
+                You can also add new items at the end of the list, by using the append() method (we will see more about methods later):</p>
+                </section>
+    
+     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>cubes.append(216)<span style="color:blue"> # add the cube of 6</span><br>
+
+            <span class="rightsymbol">>>></span>cubes.append(7 ** 3)   <span style="color:blue"># and the cube of 7</span>
+                <br>
+               
+                <span class="rightsymbol">>>></span> cubes
+<br> [1, 8, 27, 64, 125, 216, 343] <br>
+
+
+
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+      7
+        
+        <section class="paratopic">
+            <p>
+                In interactive mode, the last printed expression is assigned to the variable _. This means that when you are using Python as a desk calculator, it is somewhat easier to continue calculations, for example: </p>
+                </section>
+    
+     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>tax = 12.5 / 100<br>
+
+<span class="rightsymbol">>>></span> price = 100.50
+<br>
+                <span class="rightsymbol">>>></span> price * tax
+<br>12.5625 
+                <br>
+                 <span class="rightsymbol">>>></span>price + _<br>113.0625
+                <br>
+                    
+                <span class="rightsymbol">>>></span>round(_, 2)<br>113.06
+                <br>
+ 
+
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+      8
+        
+        <section class="paratopic">
+            <p>
+                In interactive mode, the last printed expression is assigned to the variable _. This means that when you are using Python as a desk calculator, it is somewhat easier to continue calculations, for example: </p>
+                </section>
+    
+     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>tax = 12.5 / 100<br>
+
+<span class="rightsymbol">>>></span> price = 100.50
+<br>
+                <span class="rightsymbol">>>></span> price * tax
+<br>12.5625 
+                <br>
+                 <span class="rightsymbol">>>></span>price + _<br>113.0625
+                <br>
+                    
+                <span class="rightsymbol">>>></span>round(_, 2)<br>113.06
+                <br>
+ 
+
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+        
+         
+        <div class="indexheadings">
+        
+         <a name=third> </a>
+        
+        
+        
+        
+        <section class="firstheading" >
+        <h2>Python Interpreter
+        </h2>  
+       <a href="#OutsideContainer">
+            
+            <img src="navigation.png" class="uptoggle" style="display:inline;">
+            
+            </a> 
+        
+        </section>
+            
+        </div>
+        
+        
+        <h3>
+        Using Python as a Calculator
+        </h3>
+        
+        
+        <section class="paratopic">
+            
+            <p>
+                  
+            
+            
+            
+            
+           The Python interpreter is usually installed as /usr/local/bin/python3.9 on those machines where it is available; putting /usr/local/bin in your Unix shell’s search path makes it possible to start it by typing the command:
+            
+            
+    </p>
+            
+             
+            </section>
+        
+        <div class="content">
+            
+            
+           
+            <p>
+            
+                <span style="color:blue"> python3.9</span> <br>
+            </p>
+            
+        </div>
+                 <section class="paratopic">
+                     
+            <p>
+                
+                to the shell. 1 Since the choice of the directory where the interpreter lives is an installation option, other places are possible; check with your local Python guru or system administrator. (E.g., /usr/local/python is a popular alternative location.) <br>
+
+On Windows machines where you have installed Python from the Microsoft Store, the python3.9 command will be available. If you have the py.exe launcher installed, you can use the py command. See Excursus: Setting environment variables for other ways to launch Python.<br>
+
+Typing an end-of-file character (Control-D on Unix, Control-Z on Windows) at the primary prompt causes the interpreter to exit with a zero exit status. If that doesn’t work, you can exit the interpreter by typing the following command: quit(). <br>
+
+The interpreter’s line-editing features include interactive editing, history substitution and code completion on systems that support the GNU Readline library. Perhaps the quickest check to see whether command line editing is supported is typing Control-P to the first Python prompt you get. If it beeps, you have command line editing; see Appendix Interactive Input Editing and History Substitution for an introduction to the keys. If nothing appears to happen, or if ^P is echoed, command line editing isn’t available; you’ll only be able to use backspace to remove characters from the current line. <br>
+
+The interpreter operates somewhat like the Unix shell: when called with standard input connected to a tty device, it reads and executes commands interactively; when called with a file name argument or with a file as standard input, it reads and executes a script from that file. <br>
+
+A second way of starting the interpreter is python -c command [arg] ..., which executes the statement(s) in command, analogous to the shell’s -c option. Since Python statements often contain spaces or other characters that are special to the shell, it is usually advised to quote command in its entirety with single quotes. <br>
+
+Some Python modules are also useful as scripts. These can be invoked using python -m module [arg] ..., which executes the source file for module as if you had spelled out its full name on the command line. <br>
+
+When a script file is used, it is sometimes useful to be able to run the script and enter interactive mode afterwards. This can be done by passing -i before the script. <br>
+
+All command line options are described in Command line and environment.  <br>
+               </p>
+                </section>
+        
+         <h4>
+               Argument Passing
+             
+            </h4>
+    
+        
+        <section class="paratopic">
+            
+            <p>
+                  
+            
+            
+            
+            
+          When known to the interpreter, the script name and additional arguments thereafter are turned into a list of strings and assigned to the argv variable in the sys module. You can access this list by executing import sys. The length of the list is at least one; when no script and no arguments are given, sys.argv[0] is an empty string. When the script name is given as '-' (meaning standard input), sys.argv[0] is set to '-'. When -c command is used, sys.argv[0] is set to '-c'. When -m module is used, sys.argv[0] is set to the full name of the located module. Options found after -c command or -m module are not consumed by the Python interpreter’s option processing but left in sys.argv for the command or module to handle.
+            
+            
+    </p>
+        </section>
+            
+             <h4>
+               Interactive Mode
+             
+            </h4>
+            
+            <section class="paratopic">
+            
+            <p>
+                  
+            
+            
+            
+            
+          When commands are read from a tty, the interpreter is said to be in interactive mode. In this mode it prompts for the next command with the primary prompt, usually three greater-than signs (>>>); for continuation lines it prompts with the secondary prompt, by default three dots (...). The interpreter prints a welcome message stating its version number and a copyright notice before printing the first prompt:
+            
+            
+    </p>
+        </section>
+                
+                <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">$</span>python3.9<br>
+
+
+               Python 3.9 (default, June 4 2019, 09:25:04) <br>
+                
+                [GCC 4.8.2] on linux 
+                <br>
+                
+                Type "help", "copyright", "credits" or "license" for more information.
+               
+                <span class="rightsymbol">>>></span>
+
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+        
+                
+                <section class="paratopic">
+            
+            <p>
+                  
+            
+            
+            
+            
+          Continuation lines are needed when entering a multi-line construct. As an example, take a look at this if statement:
+            
+            
+    </p>
+        </section>
+                    
+                     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">$</span>the_world_is_flat = True<br>
+                
+                <span class="rightsymbol">>>></span>if the_world_is_flat:<br>
+                
+                 
+                <span class="rightsymbol">... </span>print("Be careful not to fall off!")<br>
+                
+                <span class="...">... </span> 
+                
+                
+                
+                <br>
+                
+                Be careful not to fall off!
+                
+
+
+          
+
+            
+            
+            </p>
+            
+            
+            
+            
+            </div>
+            
+                
+            
+        
+        
+         
+        <div class="indexheadings">
+         
+         <a name=fourth> </a>
+        
+        
+        
+        
+        <section class="firstheading" >
+        <h2>Control Flow Tools
+        </h2>  
+       <a href="#OutsideContainer">
+            
+            <img src="navigation.png" class="uptoggle" style="display:inline;">
+            
+            </a> 
+        
+        </section>
+            
+        </div>
+        
+          
+        <section class="paratopic">
+            
+            <p>
+                  
+            
+            Besides the while statement just introduced, Python uses the usual flow control statements known from other languages, with some twists.
+            
+            </p>
+            
+        </section>
+        
+        
+        <h3>
+        if Statements
+        </h3>
+        
+        
+        <section class="paratopic">
+            
+            <p>
+                  
+            
+            Perhaps the most well-known statement type is the if statement. For example:
+            
+          
+            
+    </p>
+            
+        </section>
+        
+        
+        <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>int(input("Please enter an integer: "))<br>
+                Please enter an integer: 42 <br>
+ <span class="rightsymbol">>>></span>
+               <span style="color:green"> if  </span>x<0:<br>
+                   <span class="rightsymbol">...</span>&nbsp &nbsp &nbsp&nbsp x=0 <br>
+                   
+                   <span class="rightsymbol">...</span>&nbsp &nbsp &nbsp&nbsp print('Negative changed to zero')<br>
+                   
+               
+                <span class="rightsymbol">...</span>&nbsp &nbsp<span style="color:green"> elif  </span>x==0:<br>
+                   <span class="rightsymbol">...</span>&nbsp &nbsp &nbsp&nbsp  print('Zero')<br>
+                
+                <span class="rightsymbol">...</span>&nbsp &nbsp <span style="color:green"> elif  </span>x==1:<br>
+                   <span class="rightsymbol">...</span>&nbsp &nbsp &nbsp&nbsp print('Single')<br>
+                
+              <span class="rightsymbol">...</span>&nbsp &nbsp   <span style="color:green"> else  </span>:<br>
+                   <span class="rightsymbol">...</span>&nbsp &nbsp &nbsp&nbsp  print('More')<br>
+                 <span class="rightsymbol">...</span>
+                <br>
+                More
+            </p>
+        </div>
+        
+        
+                
+                
+                    <h3>
+        for Statements
+        </h3>
+        
+        
+        <section class="paratopic">
+            
+            <p>
+                  
+            
+            The for statement in Python differs a bit from what you may be used to in C or Pascal. Rather than always iterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to define both the iteration step and halting condition (as C), Python’s for statement iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence. For example (no pun intended):
+            
+          
+            
+    </p>
+            
+        </section>   
+                   
+            
+                     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>   <span style="color:blue"> # Measure some strings:
+ </span> <br>
+              
+                
+                 
+                <span class="rightsymbol">... </span>words = [<span style="color:blue">'cat', 'window', 'defenestrate'</span>]<br>
+                
+                 <span class="rightsymbol">>>></span> for w in words: <br>
+                
+                <span class="rightsymbol">... </span> &nbsp &nbsp &nbsp&nbsp   print(w, len(w))
+            
+                <br>
+                
+                <span class="rightsymbol">... </span>
+                
+                <br>
+                
+                cat 3
+                <br>
+                
+                window 6
+                
+                <br>
+                
+                defenestrate 12
+                         </p>
+        </div>
+                         <h3>
+      The <span style="color:green"> range()</span> Function
+        </h3>
+        
+                
+                 
+        <section class="paratopic">
+            
+            <p>
+                  
+            If you do need to iterate over a sequence of numbers, the built-in function range() comes in handy. It generates arithmetic progressions:
+            
+          
+            
+    </p>
+            
+        </section>   
+                
+                   
+                    
+                     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>    for i in range(5): <br>
+<br>
+              
+                
+                 
+                <span class="rightsymbol">... </span>&nbsp &nbsp &nbsp&nbsp      print(i)
+  <br>
+                
+                <span class="rightsymbol">... </span> <br>
+                 
+               0 <br>
+                1 <br>
+                2 <br>
+                3 <br>
+                4 <br>
+                
+                         </p>
+                         
+        </div>
+            
+            
+            
+            
+              <section class="paratopic">
+            
+            <p>
+                  
+           The given end point is never part of the generated sequence; range(10) generates 10 values, the legal indices for items of a sequence of length 10. It is possible to let the range start at another number, or to specify a different increment (even negative; sometimes this is called the ‘step’):
+          
+            
+    </p>
+            
+        </section>   
+            
+            
+                         
+                     <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> list(range(5, 10))   
+<br>
+              [5, 6, 7, 8, 9]
+                
+                 
+                <span class="rightsymbol">>>> </span>list(range(0, 10, 3))<br>
+                [0, 3, 6, 9]
+                
+                 <span class="rightsymbol">>>></span> list(range(-10, -100, -30)) <br>
+                
+                [-10, -40, -70]
+                
+                
+                         </p>
+                         
+                         
+        </div>
+    
+              <section class="paratopic">
+            
+            <p>
+                  
+          To iterate over the indices of a sequence, you can combine range() and len() as follows:
+          
+            
+    </p>
+            
+        </section>   
+                         
+                 <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> list(range(5, 10))   
+<br>
+              [5, 6, 7, 8, 9]
+                
+                
+                <br>
+                
+                 
+                <span class="rightsymbol">>>> </span> a = ['Mary', 'had', 'a', 'little', 'lamb']
+                <br>
+                
+                
+                 <span class="rightsymbol">>>></span> for i in range(len(a)): <br>
+                <span class="rightsymbol">...&nbsp &nbsp &nbsp&nbsp </span> print(i, a[i]) <br>
+                
+                 <span class="rightsymbol">...</span>
+                <br>
+                
+                0 Mary
+
+                <br>
+                
+                
+                1 had
+                
+                <br>
+                
+                2 a
+                
+                
+                <br>
+                
+                2 a
+                    
+                <br>
+                
+                3 little
+                
+                <br>
+                
+                
+                4 lamb
+                
+                     </p>
+                     
+        </div>
+                
+        
+        
+                    <h3>
+                        
+                        break and continue Statements, and else Clauses on Loops
+                        
+        </h3>
+            
+              <section class="paratopic">
+            
+            <p>
+          The break statement, like in C, breaks out of the innermost enclosing for or while loop.
+                
+                
+
+                <br>
+                
+Loop statements may have an else clause; it is executed when the loop terminates through exhaustion of the iterable (with for) or when the condition becomes false (with while), but not when the loop is terminated by a break statement. This is exemplified by the following loop, which searches for prime numbers:
+            
+    </p>
+            
+        </section>   
+                                 
+      <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> for n in range(2, 10): 
+<br>
+              
+                
+                
+                <br>
+                
+                 
+              
+                
+                 
+                <span class="rightsymbol">...&nbsp &nbsp &nbsp&nbsp </span>  for x in range(2, n): <br>
+                
+                    
+                <span class="rightsymbol">...&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp </span> if n % x == 0: <br>
+                    
+                <span class="rightsymbol">...&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp </span>              print(n, 'equals', x, '*', n//x)
+<br>
+                    
+                <span class="rightsymbol">...&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp </span> break <br>
+                
+                <span class="rightsymbol">...&nbsp &nbsp &nbsp&nbsp </span>  else:<br>
+                
+                  <span class="rightsymbol">...&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp </span> # loop fell through without finding a factor <br>
+                
+                  <span class="rightsymbol">...&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp </span>  print(n, 'is a prime number') <br>
+                
+                <span class="rightsymbol">... </span> <br>
+                
+                
+                    2 is a prime number
+                <br>
+                    
+                3 is a prime number
+                <br>
+                
+                    4 equals 2 * 2
+                <br>
+                
+                5 is a prime number
+                <br>
+                
+                6 equals 2 * 3
+                <br>
+                
+                7 is a prime number
+                <br>
+                
+                8 equals 2 * 4
+                <br>
+                
+                9 equals 3 * 3
+               
+                
+                     </p>
+                     
+        </div>
+        
+        
+        
+        
+        
+         <div class="indexheadings">
+         
+         <a name=fifth> </a>
+        
+        
+        
+        
+        <section class="firstheading" >
+        <h2>Data Structures
+        </h2>  
+       <a href="#OutsideContainer">
+            
+            <img src="navigation.png" class="uptoggle" style="display:inline;">
+            
+            </a> 
+        
+        </section>
+            
+        </div>
+        
+        
+        
+              <section class="paratopic">
+            
+            <p>
+                  
+          The basic Python data structures in Python include list, set, tuples, and dictionary. Each of the data structures is unique in its own way. Data structures are “containers” that organize and group data according to type.
+
+ 
+            
+    </p>
+            
+        </section>  
+        
+        
+        <div class="content1">
+            
+            
+          <img src="pythondata%20structres.png"  style="height:500px;width:100%;">
+                     
+        </div>
+        
+        
+                  
+                    <h3>
+        List
+        </h3>
+        
+        
+        
+              <section class="paratopic">
+            
+            <p>
+                  
+        A list is a collection of arbitrary objects, somewhat akin to an array in many other programming languages but more flexible. Lists are defined in Python by enclosing a comma-separated sequence of objects in square brackets ([]), as shown below:
+ 
+            
+    </p>
+            
+        </section>  
+        
+        
+        <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> a = ['foo', 'bar', 'baz', 'qux']
+<br>
+            <span class="rightsymbol">>>></span>  print(a)
+                
+                
+                <br>
+                
+            a
+                
+                     </p>
+                     
+        </div>
+                
+        
+          <section class="paratopic">
+            
+            <p>
+                  
+list.<b>append</b>(x) <br>
+                <br>
+Add an item to the end of the list. Equivalent to a[len(a):] = [x]. <br>
+                <br>
+                <br>
+                
+
+list.<b>extend</b>(iterable) <br>
+                <br>
+Extend the list by appending all the items from the iterable. Equivalent to a[len(a):] = iterable. <br>
+                
+                <br>
+                <br>
+
+list.<b>insert</b>(i, x) <br>
+                <br>
+Insert an item at a given position. The first argument is the index of the element before which to insert, so  a.insert(0, x) inserts at the front of the list, and a.insert(len(a), x) is equivalent to a.append(x).<br>
+                
+                <br>
+                <br>
+
+list.<b>remove</b>(x) <br>
+                <br>
+Remove the first item from the list whose value is equal to x. It raises a ValueError if there is no such item. <br>
+                
+                <br>
+                <br>
+
+list.<b>pop</b>([i]) <br>
+                <br>
+Remove the item at the given position in the list, and return it. If no index is specified, a.pop() removes and returns the last item in the list. (The square brackets around the i in the method signature denote that the parameter is optional, not that you should type square brackets at that position. You will see this notation frequently in the Python Library Reference.) <br>
+                
+                <br>
+                <br>
+
+list.<b>clear</b>()
+                <br>
+                <br>
+                
+Remove all items from the list. Equivalent to del a[:].
+                <br>
+                <br>
+                <br>
+
+                
+                
+                
+                
+                
+                
+list.<b>index</b>(x[, start[, end]])<br>
+                <br>
+Return zero-based index in the list of the first item whose value is equal to x. Raises a ValueError if there is no such item. 
+                <br>
+
+The optional arguments start and end are interpreted as in the slice notation and are used to limit the search to a particular subsequence of the list. The returned index is computed relative to the beginning of the full sequence rather than the start argument.  <br>
+                <br>
+                <br>
+
+list.<b>count</b>(x)  <br>
+                <br>
+Return the number of times x appears in the list.  <br>
+                <br>
+                <br>
+
+list.<b>sort</b>(*, key=None, reverse=False)  <br>
+                <br>
+Sort the items of the list in place (the arguments can be used for sort customization, see sorted() for their explanation).  <br>
+                <br>
+                <br>
+
+list.<b>reverse</b>()  <br>
+                <br>
+Reverse the elements of the list in place.   <br>
+                <br>
+                <br>
+
+list.<b>copy</b>()   <br>
+                <br>
+Return a shallow copy of the list. Equivalent to a[:].   <br>
+                <br>
+                <br>
+
+An example that uses most of the list methods:   <br>
+ 
+            
+    </p>
+            
+        </section>  
+        
+        
+        
+         <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+<br>
+            <span class="rightsymbol">>>></span>  fruits.count('apple')
+                
+                
+          <br>
+                2
+                
+                <br>
+            <span class="rightsymbol">>>></span>  fruits.count('tangerine')
+                
+                <br>
+                
+                0
+                
+                <br>
+            <span class="rightsymbol">>>></span>  fruits.index('banana')
+                <br>
+                
+                3
+                
+                <br>
+            <span class="rightsymbol">>>></span>  fruits.index('banana', 4)  # Find next banana starting a position 4
+6
+                <br>
+                
+                6
+                
+                     <br>
+            <span class="rightsymbol">>>></span> fruits.reverse()
+                <br>
+                
+               <span class="rightsymbol">>>></span>    fruits
+                <br>
+                
+                ['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange']
+                
+                          <br>
+            <span class="rightsymbol">>>></span>  fruits.append('grape')
+                <br>
+                
+               <span class="rightsymbol">>>></span>    fruits
+                <br>
+                
+                ['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange', 'grape']
+                 <br>
+                
+                                <br>
+            <span class="rightsymbol">>>></span>  fruits.sort()
+                <br>
+                
+               <span class="rightsymbol">>>></span>    fruits
+                <br>
+                
+                ['apple', 'apple', 'banana', 'banana', 'grape', 'kiwi', 'orange', 'pear']
+                
+                      <br>
+            <span class="rightsymbol">>>></span>  fruits.pop()
+                <br>
+                
+                'pear'
+                
+                
+                
+                
+                
+                
+                
+                
+                     </p>
+                     
+        </div>
+        
+        <h3> Using Lists as Stacks</h3>
+                
+        
+          <section class="paratopic">
+            
+            <p>
+
+                The list methods make it very easy to use a list as a stack, where the last element added is the first element retrieved (“last-in, first-out”). To add an item to the top of the stack, use append(). To retrieve an item from the top of the stack, use pop() without an explicit index. For example:
+            
+    </p>
+            
+        </section>   
+        
+        
+         <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> stack = [3, 4, 5]
+<br>
+            <span class="rightsymbol">>>></span>  stack.append(6)
+                
+         
+                
+                <br>
+            <span class="rightsymbol">>>></span>  stack.append(7)
+                
+                <br>
+                
+                       
+            <span class="rightsymbol">>>></span> stack
+
+                
+                <br>
+                
+                [3, 4, 5, 6, 7]
+                
+                <br>
+            <span class="rightsymbol">>>></span>  stack.pop()
+                <br>
+                
+                7
+                
+                <br>
+            <span class="rightsymbol">>>></span> stack
+6
+                <br>
+                
+                [3, 4, 5, 6]
+                
+                     <br>
+            <span class="rightsymbol">>>></span> stack.pop()
+                <br>
+                
+               <span class="rightsymbol">>>></span>    fruits
+                <br>
+                
+               6
+                          <br>
+            <span class="rightsymbol">>>></span>   stack.pop()
+                <br>
+                
+                5
+                
+                
+                <br>
+                
+               <span class="rightsymbol">>>></span>    stack
+                <br>
+                
+               [3, 4]
+                
+                
+                
+                
+                
+                
+                     </p>
+                     
+        </div>
+        
+        
+        <h3> Using Lists as Queues</h3>
+        
+        
+          <section class="paratopic">
+            
+            <p>
+
+               It is also possible to use a list as a queue, where the first element added is the first element retrieved (“first-in, first-out”); however, lists are not efficient for this purpose. While appends and pops from the end of list are fast, doing inserts or pops from the beginning of a list is slow (because all of the other elements have to be shifted by one).
+                
+                <br>
+                
+                
+                <br>
+                
+            
+            
+                
+                
+
+To implement a queue, use <span style="color:blue"> collections.deque </span> which was designed to have fast appends and pops from both ends. For example:
+            
+    </p>
+            
+        </section>   
+        
+        
+         <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> from collections import deque
+<br>
+            <span class="rightsymbol">>>></span> queue = deque(["Eric", "John", "Michael"])
+                
+         
+                
+                <br>
+            <span class="rightsymbol">>>></span>  queue.append("Terry") &nbsp &nbsp &nbsp &nbsp # Terry arrives
+                
+                <br>
+                
+                       
+            <span class="rightsymbol">>>></span> queue.append("Graham") &nbsp &nbsp # Graham arrives 
+
+                
+                <br>
+                
+               
+            <span class="rightsymbol">>>></span>  queue.popleft() &nbsp &nbsp &nbsp &nbsp   &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp # The first to arrive now leaves                 
+                <br>
+                
+                'Eric'
+             
+           
+                
+                     <br>
+            <span class="rightsymbol">>>></span>  queue.popleft() &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp   # The second to arrive now leaves
+                <br>
+                
+                'John'
+                
+                <br>
+                
+               <span class="rightsymbol">>>></span>    fruits
+                <br>
+                
+               6
+                          <br>
+            <span class="rightsymbol">>>></span>  queue &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp  # Remaining queue in order of arrival    
+                <br>
+                
+                5
+                
+                
+                <br>
+                
+                
+                deque(['Michael', 'Terry', 'Graham'])
+              
+                
+                
+                
+                
+                
+                
+                     </p>
+                     
+        </div>
+        
+        
+        <h3>List Comprehensions</h3>
+        
+        
+        <section class="paratopic">
+            
+            <p>
+            
+                
+                List comprehensions provide a concise way to create lists. Common applications are to make new lists where each element is the result of some operations applied to each member of another sequence or iterable, or to create a subsequence of those elements that satisfy a certain condition.
+                <br>
+                <br>
+                
+
+For example, assume we want to create a list of squares, like:
+            
+            
+            
+            </p>
+        
+        
+        
+        
+</section>
+        
+         <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> squares = []
+<br>
+            <span class="rightsymbol">>>></span> for x in range(10):
+         
+                
+                <br>
+                <span class="rightsymbol">... &nbsp &nbsp &nbsp &nbsp squares.append(x**2) </span>
+                
+                <br>
+                
+                                <span class="rightsymbol">...  </span>
+                
+                <br>
+                
+                
+                
+                                <span class="rightsymbol">>> </span>
+                squares
+                
+                <br>
+                
+                [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+                
+                
+             </p>
+             
+        </div>
+        
+        
+        <section class="paratopic">
+            
+            <p>
+            
+            Note that this creates (or overwrites) a variable named x that still exists after the loop completes. We can calculate the list of squares without any side effects using:
+            
+            </p>
+        
+        
+        
+        
+        
+        </section>
+        
+        
+          <div class="content">
+            
+            
+           
+            <p>
+                
+                squares = list(map(lambda x: x**2, range(10)))
+            
+                
+             </p>
+             
+        </div>
+        
+        
+         <section class="paratopic">
+            
+            <p>
+            
+           or, equivalently:
+            
+            </p>
+        
+        
+        
+        
+        
+        </section>
+        
+        
+          <div class="content">
+            
+            
+           
+            <p>
+                
+                squares = [x**2 for x in range(10)]
+            
+                
+             </p>
+             
+        </div>
+        
+        
+        <section class="paratopic">
+            
+            which is more concise and readable. 
+            
+            <br>
+            <br>
+
+A list comprehension consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses. The result will be a new list resulting from evaluating the expression in the context of the for and if clauses which follow it. For example, this listcomp combines the elements of two lists if they are not equal:
+        
+        
+        
+        </section>
+        
+        <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> >>> [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
+<br>
+        
+                
+                [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
+                
+            </p>
+            
+        </div>
+        
+        
+        
+    <section class="paratopic">
+        
+        
+        
+        
+        <p>
+        
+         and it’s equivalent to:
+            
+        </p>
+        
+        </section>
+        
+        
+        <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>  combs = []
+<br>
+            <span class="rightsymbol">>>></span> for x in [1,2,3]:
+                
+         
+                
+                <br>
+            <span class="rightsymbol">...</span>   &nbsp &nbsp &nbsp &nbsp for y in [3,1,4]:
+                
+                <br>
+                
+                       
+            <span class="rightsymbol">...</span> &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp if x != y: 
+
+                
+                <br>
+                
+                <span class="rightsymbol">...</span> &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp combs.append((x, y))
+
+
+                
+                <br>
+                
+               
+            <span class="rightsymbol">>>></span> combs            
+                <br>
+                
+                
+             [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
+           
+                
+                   
+                
+                
+                     </p>
+                     
+        </div>
+        
+        
+        
+        
+     <h3>
+         
+         Nested List Comprehensions
+        
+        </h3>
+        
+        
+        <section class="paratopic">
+            
+            The initial expression in a list comprehension can be any arbitrary expression, including another list comprehension.
+            
+          <br>
+            <br>
+            
+
+Consider the following example of a 3x4 matrix implemented as a list of 3 lists of length 4:
+        
+        
+        </section>
+        
+        
+        
+        <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span>  matrix = [
+<br>
+            <span class="rightsymbol">...</span> &nbsp &nbsp &nbsp &nbsp [1, 2, 3, 4],
+                
+         
+                
+                <br>
+            <span class="rightsymbol">...</span>   &nbsp &nbsp &nbsp &nbsp [5, 6, 7, 8],
+                
+                <br>
+                
+                       
+            <span class="rightsymbol">...</span> &nbsp &nbsp &nbsp &nbsp [9, 10, 11, 12],
+
+                
+                <br>
+                
+                <span class="rightsymbol">...</span> ]
+
+
+                
+                <br>
+                
+               
+           
+                
+                   
+                
+                
+                     </p>
+                     
+        </div>
+        
+        
+        
+        
+        <h3>
+            
+            The del statement
+        
+        
+        </h3>
+        
+        
+        <section class="paratopic">
+        
+        
+        There is a way to remove an item from a list given its index instead of its value: the del statement. This differs from the pop() method which returns a value. The del statement can also be used to remove slices from a list or clear the entire list (which we did earlier by assignment of an empty list to the slice). For example:
+        
+        </section>
+        
+        
+        <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> a = [-1, 1, 66.25, 333, 333, 1234.5]
+<br>
+            <span class="rightsymbol">>>></span> del a[0]
+                
+         
+                
+                <br>
+            <span class="rightsymbol">>>></span> a
+                <br>
+                
+                
+                [1, 66.25, 333, 333, 1234.5]
+                       
+           
+
+
+
+
+                
+                <br>
+                
+                <span class="rightsymbol">>>></span>del a[2:4]
+
+
+                
+                <br>
+                
+                
+               
+            <span class="rightsymbol">>>></span> a         
+                <br>
+                
+                
+            [1, 66.25, 1234.5]
+                
+                <br>
+                
+                   <span class="rightsymbol">>>></span>del a[:]
+
+                <br>
+                  <span class="rightsymbol">>>></span>a
+                
+                <br>
+                
+                
+                []
+                
+                   
+                
+                
+                     </p>
+                     
+        </div>
+        
+        <section class="paratopic">
+        
+        <span style="color:green">del</span> can also be used to delete entire variables:
+        
+        </section>
+        
+          <div class="content">
+            
+            
+           
+            <p>
+            <span class="rightsymbol">>>></span> del a
+
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

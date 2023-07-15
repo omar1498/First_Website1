@@ -1,0 +1,234 @@
+nav,header,footer{
+    
+    display:block;  
+}
+
+
+body{
+    
+    line-height:1;
+    margin:0;
+    background-image: url(painting3.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: alpha(opacity=10);
+    
+    
+}
+
+
+/*#######################Nav Bar##########################*/
+
+
+/*navbar take dimentions of its child*/
+nav{
+    
+    width:100%;
+    margin:0;
+    
+  
+    
+    
+    
+}
+
+nav ul{
+    
+    background-color:deepskyblue; 
+    
+    
+    
+
+    
+        /*  when browser is colapsing ..any big elemnts that cant fit n the screen by setting it to hidden so dont show   otherwise half imge which is bif will be visible orh hlaf content will be visible*/
+    
+    overflow:hidden;
+    
+    margin:0;
+    padding:0;
+   
+    
+    
+    
+}
+
+ul.topnav li { 
+            /* to remove bullet points  */
+    
+    list-style:none;
+    float:left;
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+ul.topnav li.topnav-right{
+    
+    float:right;
+    
+    
+    
+}
+ul.topnav li a{
+/*anchor tag is an inline elemnt so to make it block we use display:block and also hieght and width property dont work om inline elemnets*/
+    
+    
+
+   display:block;
+    text-decoration:none;
+
+             /*when browser shriks the min size shoold be 16px*/
+    
+    min-height:16;
+    text-align: center;
+    padding:14px;
+    
+    text-transform:uppercase;
+    
+    color:aliceblue
+
+    
+    
+    
+    
+}
+
+
+ul.topnav li a:hover{
+    
+    background-color:#0C9DBF;
+    color:white;
+    
+    
+    
+    
+    
+    
+    
+}
+.topnav-right.colorsignIn{
+    
+    background-color: darkkhaki;
+}
+
+/*#############form container#############*/
+
+
+.logincontainer{
+    
+    display:flex;
+    
+    background-color: cornsilk;
+
+    
+    height:450px;
+    
+    margin:60px 200px ;
+    
+    justify-content: center;
+    
+    border-radius:20%;
+    
+    border-bottom:5px solid black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-top:2px solid black;
+    
+    min-width:220px;
+    
+    box-shadow: 2px/*H*/ 3px/*V*/ 20px /*B*/ 5px /*T*/;
+    
+    background:linear-gradient(to right,cornsilk,white)
+    
+   
+}
+
+.formcontainerleft{
+    
+    display:flex;
+    
+    height:250px;
+    width:300px;
+    background-color:;
+    margin-top:56px;
+    
+    justify-content: center;
+    
+    position: relative;
+    margin-left:60px;
+    
+    
+    
+    
+}
+
+h1,h2{
+    
+    font-size: 27px;
+    margin-left: 50px;
+    font-family: Anton;
+    letter-spacing:2px;
+    
+  
+    
+}
+
+input{
+    max-width: 150px;
+   padding-left:50px;
+    height:40px;
+    border:2px solid black;
+}
+
+.register{
+    
+    height: 30px;
+    width:100px;
+    border: 2px;
+    margin-top:30px;
+    margin-left:50px;
+    background-color: white;
+    border:2px solid grey;
+}
+
+.formcontainerright{
+    
+    display:flex;
+    
+    height:250px;
+    width:200px;
+    background-color:;
+    margin-top:56px;
+    
+   
+    
+    position: relative;
+    margin-left:60px;
+    margin-top:120px;
+   
+    
+    
+}
+
+
+img.loginimage{
+    
+    height:100%;
+    width:100%;
+    opacity:80%;
+
+}
+
+
+
+
+
+

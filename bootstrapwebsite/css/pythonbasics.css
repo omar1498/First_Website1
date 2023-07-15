@@ -1,0 +1,31 @@
+.sqaure1{
+    
+    height:30px;
+    width:40px;
+   background-color: blueviolet;
+    animation-name:sqaure;
+    animation-delay:1s;
+   
+    
+    animation-duration: 3s;
+    
+}
+
+/*keyframes property are a set of rules that speciifies waht property should be amimated and how*/
+
+@keyframes sqaure {
+    
+    from{
+        
+        background-color: blueviolet;
+    }
+    to{
+        
+        background-color:cornsilk;
+    }
+    
+    
+    
+    
+    
+}

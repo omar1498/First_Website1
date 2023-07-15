@@ -1,0 +1,20 @@
+Version : 0.2 
+phases :
+  install:  
+      commands:
+        - echo Installing NGNIX
+        - sudo apt-get update
+        - sudo apt-get install
+  
+  build:
+      commands:
+        - echo Building
+        - cp -R First_Project_Website /var/www/html
+
+  post_build:
+      commands: 
+        - echo configuring linux 
+
+artifacts:
+  files:
+    - /var/www/html/First_Project_website    

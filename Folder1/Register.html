@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+
+
+<html>
+<title>Website2</title>
+
+<head>
+
+    <link rel="stylesheet" href="Register.css">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    
+    
+    
+    </head>
+      
+      
+<body>
+    
+    
+    <nav>
+        
+        <ul class="topnav" id="ul1">
+            
+            <li><a href="firstpage.html">Homepage</a></li>
+             <li><a href="#home">News</a></li>
+             <li><a href="#home">Contact</a></li>
+             <li><a href="firstpage.html">About</a></li>
+             <li class="topnav-right "><a href="#home">Signup</a></li>
+             <li class="topnav-right colorsignIn"><a href="login.html">Signin</a></li>
+            
+            
+            <li class="dropdownIcon" ><a href="javascript:void(0);"  onclick="dropdownMenu()">&#9776;</a></li>
+        
+        
+        </ul>
+        
+        
+    
+    
+    </nav>
+    
+    
+    <div class="logincontainer">
+        
+         <div class="formcontainerleft">
+         
+        
+            
+            <img src="" class="loginimage">
+            
+            
+            
+            
+            
+                
+                </div>        
+            
+        
+        
+        <div class="formcontainerright">
+            
+            <form action="Register.php"  method="POST" class="formclass">
+                
+                <div class="detail1">
+                    
+                     <table>
+   <tr>
+    <td class="headings">Name :</td>
+       
+<!--       to get value from input tag .then give name to input tag-->
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr>
+    <td class="headings">Password :</td>
+    <td><input type="password" name="password"  required></td>
+   </tr>
+   <tr>
+    <td class="headings">Gender :</td>
+    <td >
+     <input type="radio" name="gender" value="m" required>Male
+     <input type="radio" name="gender" value="f" required>Female
+    </td>
+   </tr>
+   <tr>
+    <td class="headings">Email :</td>
+       
+<!--       for client side validation we use required for empty-->
+    <td><input type="email" name="email" required></td>
+   </tr> 
+   <tr>
+    <td class="headings">Phone no :</td>
+    <td>
+     <select name="phoneCode" required>
+         
+<!--         default option that why empty value-->
+      <option selected hidden value="">Select Code</option>
+
+<!--         When the value attribute is present, it specifies the initial value of the input element.It has a different meaning for different input type:
+When present in “button”, “reset” and “submit” it specifies the text on the button.
+When present in “text”, “password” and “hidden” it specifies the initial value of the input field.
+When present in “checkbox”, “radio” and “image” it specifies the value associated with the input.
+-->
+         
+      <option value="977">+91</option>
+      <option value="978">978</option>
+      <option value="979">979</option>
+      <option value="973">973</option>
+      <option value="972">972</option>
+      <option value="974">974</option>
+     </select>
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+   
+  </table>
+                    
+                      <button class="register" name="register">Register</button>   
+                    
+                    
+                    
+                    
+              
+               
+                    
+                
+                </div>
+                
+       
+            
+            
+            
+            
+            
+            
+            
+            
+            </form>
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        </div>
+             
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    </body>

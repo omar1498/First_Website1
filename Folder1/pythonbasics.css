@@ -1,0 +1,119 @@
+.sqaure1{
+    
+    height:30px;
+    width:40px;
+   background-color: blueviolet;
+    animation-name:sqaure;
+    animation-delay:1s;
+    position:absolute;
+   
+    
+    animation-duration: 10s;
+    animation-iteration-count: infinite;     
+    
+}
+
+/*keyframes property are a set of rules that speciifies waht property should be amimated and how*/
+
+@keyframes sqaure{
+    
+/*    from{*/
+        
+/*        background-color: blueviolet;*/
+/*    }*/
+/*    to{*/
+        
+/*        background-color:cornsilk;*/
+/*    }*/
+    
+    
+    0%{
+        background-color: blueviolet;
+        top:0;
+        left:0;
+    }
+    25%{
+        
+        background-color: lightcyan;
+        top:0;
+        left:300px;
+    }
+    50%{
+        
+        background-color: red;
+       
+        left:300px;
+        top:500px;
+        border-radius:10%;
+         
+    }
+
+    75%{
+        
+        
+        background-color:black;
+      left:0;
+        top:500px;
+        width:200px;
+        height:100px;
+        
+        
+        
+        
+        
+        
+       
+    }
+    100%{
+        
+        background-color: darkcyan;
+        left:0;
+        top:0px;
+        
+        
+        
+    }
+    
+    
+}
+
+
+.outerdiv{
+    display:flex;
+    
+    flex-direction: row;
+    border-radius:10px;
+    width:260px;
+    
+    
+}
+
+.writetext{
+    width:0;
+    height:0;
+    
+
+}
+.logo1{
+    height:40px;
+    width:60px;
+}
+
+/*hover only on parent class*/
+.outerdiv:hover > .writetext{
+    
+    width:200px;
+    height:50px;
+  
+    line-height: 1px;
+   
+    animation-delay: 0.1s;
+    
+    
+    
+}
+
+
+
+
+
