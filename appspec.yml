@@ -1,0 +1,17 @@
+Version: 0.1
+OS : Linux
+files:
+  -source: Folder1/*
+  -destination: /var/www/html
+
+hooks:
+  AfterInstall:
+      -location: Folder1/scripts/install-nginx.sh
+      -timeout: 300
+      -runas: root
+
+  ApplicationStart: 
+      -location: Folder1/scripts/Start-nginx.sh
+      -timeout: 300
+      -runas: root
+        

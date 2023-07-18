@@ -2,14 +2,16 @@ Version : 0.2
 phases :
   install:  
       commands:
-        - echo Installing NGNIX
+        - echo Installing NGINX
+        - apt-get install sudo -y
         - sudo apt-get update
-        - sudo apt-get install
+        - sudo apt-get install nginx -y
   
   build:
       commands:
         - echo Building
-        - cp -R First_Project_Website /var/www/html
+        - cp -r Folder1/* /var/www/html
+        - 
 
   post_build:
       commands: 
@@ -17,4 +19,11 @@ phases :
 
 artifacts:
   files:
-    - /var/www/html/First_Project_website    
+    - Folder1/*
+    - Folder1/scripts/*
+    - Folder1/bootstrapewbsite/*
+    - Folder1/bootstrapwebsite/css/*
+    - Folder1/bootstrapwebsite/js/*
+    - Folder1/PHP/*
+    - buildspec.yml
+    - appspec.yml
