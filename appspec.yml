@@ -10,8 +10,8 @@ hooks:
       -timeout: 300
       -runas: root
 
-ApplicationStart: 
+  ApplicationStart: 
       -location: Folder1/scripts/Start-nginx.sh
       -timeout: 300
       -runas: root
-          
+        
